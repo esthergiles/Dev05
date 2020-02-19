@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!-- 
+Esther Brown
+CIS 376
+Dev 05: Bootstrapping up Dev 02 Image Guide
+Due: 02/20/2020
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dev 05</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Code Examples</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      
+    </ul>
+
+  </div>
+</nav>
+
+<main role="main">
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Esther Brown Dev 05</h1>
+      <p>
+        <b>Image Guide For Choosing File Types (Bootstrap Version)</b><br />
+        Below is a reference table that can be used to easily learn about image types. You will find info on different
+        image types, when to use them, tips on naming images, as well as example images.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">File Extension </th>
+          <th scope="col">When, Where, How?</th>
+          <th scope="col">Examples</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">JPEG Images </th>
+          <td>JPEG files should be used when an image has many different colors. For instance, an image of a sunset, or
+            like this little cute bird. Naming images with their size (length x width) and including an alt value are
+            good practices!</td>
+          <img src="img/spring_bird_SM_300x200.jpg" alt="spring bird jpeg small" width="300" height="200">
+          <img src="img/spring_bird_MD_500x333.jpg" alt="spring bird jpeg medium" width="500" height="333">
+          <img src="img/spring_bird_LG_800x533.jpg" alt="spring bird jpeg large" width="533" height="533">
+
+        </tr>
+        <tr>
+          <th scope="row">PNG Images </th>
+          <td>PNG files should be used when an image has fewer colors or a large area of the same color. For instance, a
+            logo or simple illustration. Naming images with their size (length x width) and including an alt value are
+            good practices!</td>
+          <img src="img/bird_SM_300x444.png" alt="bird png small" width="300" height="444">
+          <img src="img/bird_MD_500x740.png" alt="bird png medium" width="500" height="740">
+          <img src="img/bird_LG_803x1280.png" alt="bird png large" width="803" height="1280">
+        </tr>
+        <tr>
+          <th scope="row">GIF Images </th>
+          <td>GIF files should be used when an image has fewer colors or a large area of the same color. For instance, a
+            logo or simple illustration. Naming images with their size (length x width) and including an alt value are
+            good practices!</td>
+          <img src="img/mountain_SM_300x205.gif" alt="bird logo gif large" width="300" height="205">
+          <img src="img/mountain_MD_500x341.gif" alt="bird logo gif small" width="500" height="341">
+          <img src="img/mountain_LG_800x546.gif" alt="bird logo gif medium" width="800" height="831">
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  </div>
+
+</main>
+
+<footer class="container">
+
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">Dev 01</a></li>
+    <li class="page-item"><a class="page-link" href="#">Dev 02</a></li>
+    <li class="page-item"><a class="page-link" href="#">Dev 03</a></li>
+    <li class="page-item"><a class="page-link" href="#">Dev 04</a></li>
+    <li class="page-item"><a class="page-link" href="#">Dev 05</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</footer>
+<script>
+  window.jQuery || document.write(
+    '<script src="https://getbootstrap.com/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
+</script>
+
+<script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+</body>
+</html>
